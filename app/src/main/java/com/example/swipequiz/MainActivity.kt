@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 val position = viewHolder.adapterPosition
 
-                var answer = questions[position].answer
+                val answer = questions[position].answer
                 if(direction == ItemTouchHelper.LEFT){
                     if(answer == false){
                         Snackbar.make(rvQuestions, getResources().getString(R.string.correct_answer) + answer.toString(), Snackbar.LENGTH_SHORT).show()
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                         Snackbar.make(rvQuestions, getResources().getString(R.string.incorrect_answer) + answer.toString(), Snackbar.LENGTH_SHORT).show()
                     }
                 }
-                
+
                 questionAdapter.notifyItemChanged(viewHolder.adapterPosition)
 
             }

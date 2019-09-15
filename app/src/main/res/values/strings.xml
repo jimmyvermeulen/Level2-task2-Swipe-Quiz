@@ -2,4 +2,6 @@
     <string name="app_name">Swipe Quiz</string>
     <string name="correct_answer">Correct! The answer was: </string>
     <string name="incorrect_answer">Incorrect! The answer was: </string>
+    <string name="title">Quiz instructions</string>
+    <string name="instructions">Swipe left for true, swipe right for false.\nClick on the question for the answer</string>
 </resources>
