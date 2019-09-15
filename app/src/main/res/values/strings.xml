@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Swipe Quiz</string>
+    <string name="correct_answer">Correct! The answer was: </string>
+    <string name="incorrect_answer">Incorrect! The answer was: </string>
+</resources>
